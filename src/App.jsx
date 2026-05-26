@@ -60,7 +60,7 @@ const gameData = [
     id: 1,
     title: "NÍVEL 1: Molhamento Tático",
     icon: <Target className="w-8 h-8 text-cyan-400" />,
-    narrative: "> ALVO: DENTE 16. O Sr. Silva perdeu a restauração. Precisamos criar uma nova interface perfeita. \n> INICIANDO SCAN FÍSICO DO SUBSTRATO...",
+    narrative: "> ALVO: DENTE 16. O Sr. Curinga perdeu a restauração. Precisamos criar uma nova interface perfeita. \n> INICIANDO SCAN FÍSICO DO SUBSTRATO...",
     question: "Qual configuração física garante que o adesivo (líquido) molhe perfeitamente a cavidade (sólido)?",
     options: [
       { text: "Alta tensão superficial do adesivo + Baixa energia de superfície do dente.", isCorrect: false },
@@ -353,7 +353,7 @@ export default function App() {
             
             <div className="bg-black/50 border-l-4 border-cyan-500 p-6 rounded mb-10 font-mono text-sm md:text-base text-cyan-100">
               <p className="typing-effect mb-2">{">"} CONEXÃO ESTABELECIDA...</p>
-              <p className="typing-effect mb-2" style={{animationDelay: '0.5s'}}>{">"} PACIENTE: SR. SILVA. DENTE 16 COMPROMETIDO.</p>
+              <p className="typing-effect mb-2" style={{animationDelay: '0.5s'}}>{">"} PACIENTE: SR. Curinga. DENTE 16 COMPROMETIDO.</p>
               <p className="typing-effect mb-4" style={{animationDelay: '1s'}}>{">"} MISSÃO: RESTAURAR E SELAR A INTERFACE COM 100% DE SUCESSO.</p>
               
               <ul className="space-y-2 mt-4 border-t border-cyan-900 pt-4 text-slate-300">
